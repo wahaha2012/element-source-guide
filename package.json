@@ -4,12 +4,12 @@
   "description": "guide docs for element ui source code",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev docs",
+    "start": "vuepress dev docs",
     "build": "vuepress build docs"
   },
   "author": "xinwei.wang@dadaabc.com",
   "license": "ISC",
   "devDependencies": {
-    "vuepress": "^0.14.5"
+    "vuepress": "^1.0.3"
   }
 }
