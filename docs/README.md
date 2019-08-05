@@ -2,7 +2,7 @@
 home: true
 subTitle: test
 actionText: Get Start →
-actionLink: /guide/start
+actionLink: /guide/
 features:
 - title: Consistency
   details: Order apis by category.

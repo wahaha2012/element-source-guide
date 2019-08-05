@@ -16,13 +16,11 @@ module.exports = {
       {
         title: "Guide",
         collapsable: false,
-        children: [
-          '/guide/start',
-        ]
+        path: "/guide/"
       },
       {
         title: "Components",
-        collapsable: true,
+        collapsable: false,
         children: [
           '/components/basic/layout',
           // '/components/form/radio',
@@ -31,20 +29,13 @@ module.exports = {
           // '/components/navigation/nav-menu',
           // '/components/others/dialog',
         ]
-      },
-      {
-        title: "Contributing",
-        collapsable: true,
-        children: [
-          '/contributing/development',
-          '/contributing/contributors',
-        ]
-      },
+      }
     ],
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/start' },
-      { text: 'Components', link: '/components/basic/layout' }
+      { text: 'Guide', link: '/guide/' },
+      { text: 'Components', link: '/components/basic/layout' },
+      { text: 'Contributing', link: '/contributing/' }
     ]
   }
 }
