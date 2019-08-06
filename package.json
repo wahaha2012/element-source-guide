@@ -4,7 +4,8 @@
   "description": "guide docs for element ui source code",
   "main": "index.js",
   "scripts": {
-    "start": "vuepress dev docs",
+    "dev": "vuepress dev docs --open",
+    "start": "yarn dev",
     "build": "vuepress build docs"
   },
   "author": "xinwei.wang@dadaabc.com",
