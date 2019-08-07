@@ -13,79 +13,11 @@ module.exports = {
     // displayAllHeaders: true,
     sidebarDepth: 2,
     locales: {
-      "/en/" :{
-        lastUpdated: 'Last Updated',
-        sidebar: {
-          "/en/guide": [
-            {
-              title: "Guide",
-              collapsable: false,
-              path: "/en/guide/"
-            }
-          ],
-          "/en/components/": [
-            {
-              title: "Basic",
-              collapsable: false,
-              children: [
-                '/en/components/basic/layout',
-                '/en/components/basic/container',
-              ]
-            },
-            {
-              title: "Form",
-              collapsable: false,
-              children: [
-                '/en/components/form/radio',
-              ]
-            },
-            {
-              title: "Data",
-              collapsable: false,
-              children: [
-                '/en/components/data/tag',
-              ]
-            },
-            {
-              title: "Notice",
-              collapsable: false,
-              children: [
-                '/en/components/notice/loading',
-              ]
-            },
-            {
-              title: "Navigation",
-              collapsable: false,
-              children: [
-                '/en/components/navigation/breadcrumb',
-              ]
-            },
-            {
-              title: "Others",
-              collapsable: false,
-              children: [
-                '/en/components/others/divider',
-              ]
-            }
-          ]
-        },
-        nav: [
-          { text: 'Home', link: '/en/' },
-          { text: 'Guide', link: '/en/guide/' },
-          { text: 'Components', link: '/en/components/basic/layout' },
-          { text: 'Contributing', link: '/en/contributing/' }
-        ]
-      },
       "/" : {
         lastUpdated: '上次更新',
+        label: "简体中文",
+        selectText: "语言选择",
         sidebar: {
-          "/guide": [
-            {
-              title: "Guide",
-              collapsable: false,
-              path: "/guide/"
-            }
-          ],
           "/components/": [
             {
               title: "Basic",
@@ -132,15 +64,88 @@ module.exports = {
                 '/components/others/divider',
               ]
             }
+          ],
+          "/contributing/": [],
+          "/": [
+            {
+              title: "概览",
+              collapsable: false,
+              path: "/"
+            }
           ]
         },
         nav: [
-          { text: '首页', link: '/' },
-          { text: '概览', link: '/guide/' },
+          { text: '概览', link: '/' },
           { text: '组件', link: '/components/basic/layout' },
           { text: '贡献代码', link: '/contributing/' }
         ]
-      }
+      },
+
+      // "/en/" :{
+      //   lastUpdated: 'Last Updated',
+      //   label: "English",
+      //   selectText: "Languages",
+      //   sidebar: {
+      //     "/en/components/": [
+      //       {
+      //         title: "Basic",
+      //         collapsable: false,
+      //         children: [
+      //           '/en/components/basic/layout',
+      //           '/en/components/basic/container',
+      //         ]
+      //       },
+      //       {
+      //         title: "Form",
+      //         collapsable: false,
+      //         children: [
+      //           '/en/components/form/radio',
+      //         ]
+      //       },
+      //       {
+      //         title: "Data",
+      //         collapsable: false,
+      //         children: [
+      //           '/en/components/data/tag',
+      //         ]
+      //       },
+      //       {
+      //         title: "Notice",
+      //         collapsable: false,
+      //         children: [
+      //           '/en/components/notice/loading',
+      //         ]
+      //       },
+      //       {
+      //         title: "Navigation",
+      //         collapsable: false,
+      //         children: [
+      //           '/en/components/navigation/breadcrumb',
+      //         ]
+      //       },
+      //       {
+      //         title: "Others",
+      //         collapsable: false,
+      //         children: [
+      //           '/en/components/others/divider',
+      //         ]
+      //       }
+      //     ],
+      //     "/en/contributing": [],
+      //     "/en/": [
+      //       {
+      //         title: "Guide",
+      //         collapsable: false,
+      //         path: "/en/"
+      //       }
+      //     ]
+      //   },
+      //   nav: [
+      //     { text: 'Guide', link: '/en/' },
+      //     { text: 'Components', link: '/en/components/basic/layout' },
+      //     { text: 'Contributing', link: '/en/contributing/' }
+      //   ]
+      // }
     }
   },
   locales: {
