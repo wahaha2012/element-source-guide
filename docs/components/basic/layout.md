@@ -15,6 +15,7 @@
   
 ### 1.1 源码
 ```js
+// row.js
 export default {
   name: 'ElRow',
 
@@ -78,7 +79,7 @@ export default {
 componentName作为自定义属性的作用是什么呢？
 :::
 
-### 1.3 props属性定义
+### 1.3 props属性
 然后声明组件的属性列表
 ```js
 export default {
@@ -186,6 +187,7 @@ export default {
 
 ### 2.1 源码
 ```js
+// col.js
 export default {
   name: 'ElCol',
 
@@ -268,7 +270,7 @@ export default {
 }
 ```
 
-### 2.3 props属性定义
+### 2.3 props属性
 ```js
 export default {
   ...

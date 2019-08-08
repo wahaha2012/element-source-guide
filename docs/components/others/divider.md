@@ -68,7 +68,7 @@ export default {
 }
 ```
 
-### props属性定义
+### props属性
 props定义了两个属性：
 - `direction` {String} 设置分割线方向
 - `contentPosition` {String } 设置分割线文案的位置
