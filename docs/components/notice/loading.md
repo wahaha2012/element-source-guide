@@ -352,6 +352,8 @@ loadingDirective.install = Vue => {
 // 导出默认对象为loadingDirective
 export default loadingDirective;
 ```
+Loading指令流程图
+<img :src="$withBase('/images/loading-directive.png')" alt="loading directive">
 
 ### 服务组件
 ```js
