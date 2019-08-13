@@ -8,8 +8,8 @@
     "start": "yarn dev",
     "build": "vuepress build docs"
   },
-  "author": "xinwei.wang@dadaabc.com",
-  "license": "ISC",
+  "author": "wxwdesign@gmail.com",
+  "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.0.3"
   }
